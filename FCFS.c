@@ -70,4 +70,19 @@ void program()
         count=0;
         x=start;
      
+        switch(choice)
+                      {case 1:    system("cls");
+					      printf("\t\t\t\t\t********WELCOME TO DISK SCHEDULING ALGORITHM OF FCFS**********\n\n");
+                                           
+                              printf("Scheduling services the request in the order that follows:\n%d\t",start);
+                              for(i=0;i<n;i++)
+                                              {
+											  x-=a[i];
+                                               if(x<0)
+                                                      x=-x;
+                                               count+=x;
+                                               x=a[i];
+                                               printf("%d\t",x);
+                                               }
+     
 
