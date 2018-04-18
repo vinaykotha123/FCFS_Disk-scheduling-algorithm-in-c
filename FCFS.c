@@ -42,4 +42,18 @@ void password()
 	}
 }
                                      
+void program()
+    {int choice,m,n,x,v,start,i,j,pos,min,a[15],count;
+     count=0;
+     system("cls");
+     printf("\nEnter the number of cylinders :");
+     scanf("%d",&m);
+     printf("\nEnter the number of requests :");
+     scanf("%d",&n);
+     printf("\nEnter previous requesst position:");
+     scanf("%d",&v);
+     printf("\nEnter current position :");
+     scanf("%d",&start);
+     printf("\nEnter the request queue :");
+   
 
