@@ -83,6 +83,15 @@ void program()
                                                count+=x;
                                                x=a[i];
                                                printf("%d\t",x);
-                                               }
+                                               }                    
+		       printf("\nTotal distance (in cylinders) is :%d ",count);
+                              break;
+                              	default:
+				printf("EXIT\n");
+				break;
+                       }
+       
+        
+    }
      
 
