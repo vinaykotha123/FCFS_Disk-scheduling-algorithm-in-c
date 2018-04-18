@@ -61,6 +61,13 @@ void program()
                                  {printf("\ninvalid input");
                                   scanf("%d",&a[i]);
                                   }
-                      }
+                      } 
+     system("cls");
+       printf("Data is recorded.............\n\nKindly select the option");
+       printf("\n\nDISK SCHEDULING ALGORITHMS\n1. FCFS\n OR \nPRESS ANY KEY TO EXIT");
+        printf("\nEnter choice :");
+        scanf("%d",&choice);
+        count=0;
+        x=start;
      
 
