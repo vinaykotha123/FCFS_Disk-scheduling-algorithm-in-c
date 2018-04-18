@@ -55,5 +55,12 @@ void program()
      printf("\nEnter current position :");
      scanf("%d",&start);
      printf("\nEnter the request queue :");
-   
+     for(i=0;i<n;i++)
+                     {scanf("%d",&a[i]);
+                      if(a[i]>=m)
+                                 {printf("\ninvalid input");
+                                  scanf("%d",&a[i]);
+                                  }
+                      }
+     
 
